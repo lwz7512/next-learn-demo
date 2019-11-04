@@ -1,9 +1,23 @@
 {
+  "name": "hello-next",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "lint-fix": "prettier --write **/**/*"
+    "lint-fix": "prettier --write **/**/*",
+    "dev1": "yarn workspace @hello-next/1-navigate-between-pages dev",
+    "dev2": "yarn workspace @hello-next/2-using-shared-components dev",
+    "dev3": "yarn workspace @hello-next/3-create-dynamic-pages dev",
+    "dev4": "yarn workspace @hello-next/4-clean-urls dev",
+    "dev6": "yarn workspace @hello-next/6-fetching-data dev",
+    "dev7": "yarn workspace @hello-next/7-styling-components dev",
+    "dev8": "yarn workspace @hello-next/8-deploying dev",
+    "deve1": "yarn workspace @hello-next/e1-static-export dev",
+    "deve2": "yarn workspace @hello-next/e2-lazy-loading-modules dev",
+    "deve3": "yarn workspace @hello-next/e3-lazy-loading-components dev"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "prettier": "^1.16.4"
   }

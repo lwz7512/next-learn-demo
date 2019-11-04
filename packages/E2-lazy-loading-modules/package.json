@@ -1,5 +1,5 @@
 {
-  "name": "hello-next",
+  "name": "@hello-next/e2-lazy-loading-modules",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
