@@ -20,7 +20,7 @@ $ yarn
 
 ## Start each workspace server
 
-to run the each workspace under packages:
+to run the each workspace under packages, stay in the next-learn-demo directory, execute the following commands, when run the next workspace, stop the running workspace first by ctrl+c:
 
 ```
 $ yarn run dev1
